@@ -29,6 +29,7 @@ function App() {
       try {
         const promises = stockSymbols.map(symbol =>
           axios.get(`https://stockview-api.onrender.com/api/price?symbol=${symbol.symbol}`)
+
             .then(res => ({
               symbol: symbol.symbol,
               data: res.data
