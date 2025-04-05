@@ -1,12 +1,3 @@
----
-
-```markdown
-# 📈 Stock Viewer
-
-A responsive web application for visualizing live and historical stock prices from major global companies like Apple, Microsoft, Tesla, and more.
-
----
-
 ## 🌐 Live Demo
 
 ▶️ [Visit Live App](https://stock-view-api.vercel.app)
