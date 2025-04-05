@@ -72,11 +72,9 @@ A simple web app to view live and historical stock prices for popular companies 
 
 ## 📧 Contact
 
-Have feedback or suggestions? Reach out at [yourname@example.com].
+Have feedback or suggestions? Reach out at [istimons@gmail.com].
 
----
 
 > Built with ❤️ by Timon Njuhigu
 ```
 
----
