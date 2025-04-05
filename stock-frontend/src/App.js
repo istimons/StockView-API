@@ -21,7 +21,7 @@ function App() {
   const [error, setError] = useState(null);
 
   // WebSocket URL - replace with your actual WebSocket server
-  // const wsUrl = "wss://api.stockapi.com/stocks/live";
+  const wsUrl = "wss://api.stockapi.com/stocks/live";
 
   useEffect(() => {
     // Fetch initial stock prices
