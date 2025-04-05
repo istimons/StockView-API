@@ -34,7 +34,7 @@ A simple web app to view live and historical stock prices for popular companies 
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/stock-viewer.git
+   git clone https://github.com/istimons/stock-viewer.git
    cd stock-viewer
    ```
 
