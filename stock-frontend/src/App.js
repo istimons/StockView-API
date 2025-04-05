@@ -21,14 +21,14 @@ function App() {
   const [error, setError] = useState(null);
 
   // WebSocket URL - replace with your actual WebSocket server
-  const wsUrl = "wss://api.stockapi.com/stocks/live";
+  // const wsUrl = "wss://api.stockapi.com/stocks/live";
 
   useEffect(() => {
     // Fetch initial stock prices
     const fetchPrices = async () => {
       try {
         const promises = stockSymbols.map(symbol =>
-          axios.get(`/api/price?symbol=${symbol.symbol}`)
+          axios.get(`https://stockview-api.onrender.com/api/price?symbol=${symbol.symbol}`)
             .then(res => ({
               symbol: symbol.symbol,
               data: res.data
