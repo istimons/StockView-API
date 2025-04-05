@@ -1,80 +1,120 @@
+---
+
 ```markdown
 # 📈 Stock Viewer
 
-A simple web app to view live and historical stock prices for popular companies like AAPL, MSFT, GOOGL, and more.
+A responsive web application for visualizing live and historical stock prices from major global companies like Apple, Microsoft, Tesla, and more.
 
-## 🚀 Live Demo
-🔗 [View the App](https://stock-view-api.vercel.app)
+---
 
-## 💡 Features
-- Fetches real-time stock data via a Django API
-- Beautiful line charts for each stock using Recharts
-- Responsive design with Tailwind CSS
-- Clean and intuitive UI
-- Backend hosted on Render, Frontend on Vercel
+## 🌐 Live Demo
 
-## ⚙️ Tech Stack
+▶️ [Visit Live App](https://stock-view-api.vercel.app)
 
-### Frontend
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
 - React
 - Tailwind CSS
-- Recharts
-- Axios
+- Recharts (for interactive charts)
 - Vercel (hosting)
 
-### Backend
+**Backend**
 - Django + Django REST Framework
-- yFinance (for stock data)
+- yFinance (for real-time stock data)
 - Render (hosting)
-- CORS Headers for cross-origin requests
 
-## 🛠️ Setup Instructions
+---
 
-### Backend (Django)
+## ✨ Features
 
-1. Clone the repo:
+- 📊 Interactive line charts per stock
+- 📈 Real-time price updates via REST API
+- 🖥️ Clean, mobile-responsive interface
+- 🔍 View latest prices in a summary table
+- 🔄 Automatically updates without reload
+
+---
+
+## 🚀 Getting Started
+
+### 🧩 Prerequisites
+
+- Python 3.8+
+- Node.js + npm
+- Git
+
+---
+
+### 📦 Clone the Repository
+
+```bash
+git clone https://github.com/istimons/stock-viewer.git
+cd stock-viewer
+```
+
+---
+
+### ⚙️ Backend Setup (Django)
+
+1. Create and activate a virtual environment:
+
    ```bash
-   git clone https://github.com/istimons/stock-viewer.git
-   cd stock-viewer
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Run the server:
+
    ```bash
    python manage.py runserver
    ```
 
-### Frontend (React)
+> API endpoint will be available at `http://127.0.0.1:8000/api/price?symbol=AAPL`
 
-1. Navigate to the frontend folder:
+---
+
+### 💻 Frontend Setup (React)
+
+1. Navigate to the frontend directory (if applicable):
+
    ```bash
-   cd frontend
+   cd stock-frontend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
-3. Run the app:
+3. Start the React app:
+
    ```bash
    npm start
    ```
 
-## 📦 Deployment
+> App will be served at `http://localhost:3000`
 
-- **Backend:** Deployed to [Render](https://render.com)
-- **Frontend:** Deployed to [Vercel](https://vercel.com)
+---
 
-## 📧 Contact
+## 🌍 Deployment
 
-Have feedback or suggestions? Reach out at [istimons@gmail.com].
+- **Backend**: [Render](https://render.com)
+- **Frontend**: [Vercel](https://vercel.com)
 
 
-> Built with ❤️ by Timon Njuhigu
-```
+## 🙋‍♂️ Author
+
+**Timon Njuhigu**  
+🔗 [GitHub - istimons](https://github.com/istimons)
+
 
